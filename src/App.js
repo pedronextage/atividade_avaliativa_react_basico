@@ -1,6 +1,6 @@
 import './App.css';
 
-function Img_cabecalho(){
+function ImgCabecalho(){
   return (
     <div className='cabecalho'>
     <img src= '/images/PlayStation_logo.svg-removebg-preview.png'
@@ -15,7 +15,7 @@ function Img_cabecalho(){
 function Apresentacao(){
   return <h2 className='Apresentacao'>Jogar Não Tem Limites</h2>
 }
-function Titulo_card1(){
+function TituloCard1(){
   return (
   <>
   <h2 className='titulo-card essencial'>ESSENCIAL</h2>
@@ -23,7 +23,7 @@ function Titulo_card1(){
   </>
   )
 }
-function Card1_info(){
+function Card1Info(){
   return (
     <>
   <h4>R$43,90/mês</h4>
@@ -33,10 +33,10 @@ function Card1_info(){
   </>
   )
 }
-function Botao_card(){
+function BotaoCard(){
   return <button className='botao-card'> Acicionar ao carrinho </button>
 }
-function Titulo_card2(){
+function TituloCard2(){
   return (
     <>
   <h2 className='titulo-card extra'>EXTRA</h2>
@@ -44,7 +44,7 @@ function Titulo_card2(){
   </>
   )
 }
-function Card2_info(){
+function Card2Info(){
   return (
     <>
   <h4>R$65,90/mês</h4>
@@ -56,7 +56,7 @@ function Card2_info(){
   </>
 )
 }
-function Titulo_card3(){
+function TituloCard3(){
   return (
     <>
   <h2 className='titulo-card deluxe'>DELUXE</h2> 
@@ -64,7 +64,7 @@ function Titulo_card3(){
   </>
   )
 }
-function Card3_info(){
+function Card3Info(){
   return (
 
   <>
@@ -84,24 +84,24 @@ function App(){
   return (
     <>
     <div className='Titulo_card'>
-    <Img_cabecalho />
+    <ImgCabecalho />
     <Apresentacao />
     </div>
 
     <div className='card1'>
-      <Titulo_card1 />
-      <Card1_info />
-      <Botao_card />
+      <TituloCard1 />
+      <Card1Info />
+      <BotaoCard />
     </div>
     <div className='card2'>
-      <Titulo_card2 />
-      <Card2_info />
-      <Botao_card />
+      <TituloCard2 />
+      <Card2Info />
+      <BotaoCard />
     </div>
     <div className='card3'>
-      <Titulo_card3 />
-      <Card3_info />
-      <Botao_card />
+      <TituloCard3 />
+      <Card3Info />
+      <BotaoCard />
     </div>
     </>
   );
