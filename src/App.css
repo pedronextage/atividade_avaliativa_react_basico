@@ -1,0 +1,132 @@
+.card1{
+ 
+  width: 450px;
+  background-color: rgb(255, 255, 255);
+  margin: 60px auto;
+  padding: 40px;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.12);
+  transition: 0.3s;
+}
+
+.card1:hover{
+  transform: translateY(-5px);
+}
+.card2{
+ 
+  width: 450px;
+  background-color: rgb(255, 255, 255);
+  margin: 60px auto;
+  padding: 40px;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.12);
+  transition: 0.3s;
+}
+
+.card2:hover{
+  transform: translateY(-5px);
+}
+.card3{
+ 
+  width: 450px;
+  background-color: rgb(255, 255, 255);
+  margin: 60px auto;
+  padding: 40px;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.12);
+  transition: 0.3s;
+}
+
+.card3:hover{
+  transform: translateY(-5px);
+}
+
+
+
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.20);
+}
+
+
+
+
+
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.Apresentacao{
+  text-align: center;
+  font-family: playstation;
+}
+.Titulo{
+  font-family: playstation;
+}
+@font-face{
+  font-family: 'playstation';
+  src: local('playstation'), url('./../public/assets/fonts/zrnic\ rg.otf'), format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+.titulo-card {
+  display: block;
+  width: 100%;              
+  text-align: center;       
+  padding: 12px;            
+  margin: 0;                
+  font-size: 1.5rem;
+  border-radius: 19px;
+}
+
+
+.titulo-card.essencial {
+  background-color: white;
+  border: 3px solid black;
+  color: black;
+}
+
+.titulo-card.extra {
+  background-color: yellow;
+  border: 3px solid black;
+  color: black;
+}
+
+.titulo-card.deluxe {
+  background-color: black;
+  border: 3px solid yellow;
+  color: yellow;
+}
+
+
+.botao-card {
+  background-color: #007BFF;   
+  color: white;                
+  border: none;                
+  border-radius: 25px;         
+  padding: 12px 20px;          
+  font-size: 1rem;             
+  cursor: pointer;             
+  transition: background-color 0.3s ease; 
+}
+
+.botao-card:hover {
+  background-color: #0056b3;   
+}
